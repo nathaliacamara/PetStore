@@ -51,7 +51,7 @@ public class Pet {
 
     @Test(priority=2)
     public void consultarPet(){
-        String petId = "1974080298";
+        String petId = "1974080995";
 
         String token =
                 given()
@@ -85,14 +85,14 @@ public class Pet {
         .then()
                 .log().all()
                 .statusCode(200)
-                .body("name", is("Jonh"))
+                .body("name", is("Maya"))
                 .body("status",is("sold"))
         ;
     }
 
     @Test (priority = 4)
     public void excluirPet(){
-        String petId = "1974080298";
+        String petId = "1974080995";
 
         given()
                 .contentType("application/json")
