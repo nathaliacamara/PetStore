@@ -1,4 +1,4 @@
-# PetStore teste de API - Rest Assured
+# PetStore 
 
 Projeto Iterasys
 Semana do teste de API - Rest Assured
